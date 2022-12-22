@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -5,15 +7,62 @@ import 'package:flutter_application_1/Screen/Doianh.dart';
 import 'package:flutter_application_1/Screen/Doimatkhau.dart';
 import 'package:flutter_application_1/Screen/Quanlihoso.dart';
 import 'package:flutter_application_1/Screen/screen.dart';
+import 'package:flutter_application_1/model/counter_reader.dart';
 
 class ChinhsuahosoScreen extends StatefulWidget {
-  const ChinhsuahosoScreen({super.key});
-
+  const ChinhsuahosoScreen({super.key, required this.storage});
+  final CounterReader storage;
   @override
   State<ChinhsuahosoScreen> createState() => _ChinhsuahosoScreenState();
 }
 
 class _ChinhsuahosoScreenState extends State<ChinhsuahosoScreen> {
+  final controller_text_data = TextEditingController();
+  final controller_email = TextEditingController();
+  String _counter = "cao ky";
+  String email = "caoky@gmail.com";
+
+  Future<File> _incrementCounter() async {
+    setState(() {
+      _counter = controller_text_data.text;
+    });
+    return widget.storage.writeCounter(_counter);
+  }
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    widget.storage.readCounter().then((
+      String value,
+    ) {
+      setState(() {
+        _counter = value;
+        // email = value;
+      });
+    });
+  }
+
+  // final controller_email = TextEditingController();
+  // String email = "caoky@gmail.com";
+  // Future<File> _incrementCounteremail() async {
+  //   setState(() {
+  //     email = controller_email.text;
+  //   });
+  //   return widget.storage.writeCounter(_counter);
+  // }
+
+  // @override
+  // void initStateemail() {
+  //   // TODO: implement initState
+  //   super.initState();
+  //   widget.storage.readCounter().then((String value) {
+  //     setState(() {
+  //       email = value;
+  //     });
+  //   });
+  // }
+
   @override
   Widget build(BuildContext context) {
     var mlr = 20.0;
@@ -34,7 +83,7 @@ class _ChinhsuahosoScreenState extends State<ChinhsuahosoScreen> {
                 children: [
                   InkWell(
                     onTap: () {
-                       Navigator.pop(context);
+                      Navigator.pop(context);
                       // Navigator.push(
                       //     context,
                       //     MaterialPageRoute(
@@ -87,22 +136,25 @@ class _ChinhsuahosoScreenState extends State<ChinhsuahosoScreen> {
                   ],
                 ),
               ),
-              
+
               Container(
                 alignment: Alignment.center,
                 child: InkWell(
-                  onTap:(){
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => DoianhScreen(),));
-                  },
-                  child:Text('Thay đổi ảnh đại diện', style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.orange,
-                  ),)
-                
-                  
-                 
-                ),
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => DoianhScreen(),
+                          ));
+                    },
+                    child: Text(
+                      'Thay đổi ảnh đại diện',
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.orange,
+                      ),
+                    )),
               ),
               Padding(
                 padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
@@ -117,13 +169,14 @@ class _ChinhsuahosoScreenState extends State<ChinhsuahosoScreen> {
                           color: Colors.black.withOpacity(0.6)),
                     ),
                     TextField(
+                      controller: controller_text_data,
                       style: TextStyle(
                           fontSize: 18, color: Color.fromARGB(255, 0, 0, 0)),
                       decoration: InputDecoration(
                         enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(color: orange)),
                         border: OutlineInputBorder(),
-                        hintText: 'Tên người dùng',
+                        hintText: '$_counter',
 
                         hintStyle: TextStyle(
                             color: Color.fromARGB(255, 58, 58, 58),
@@ -150,13 +203,14 @@ class _ChinhsuahosoScreenState extends State<ChinhsuahosoScreen> {
                           color: Colors.black.withOpacity(0.6)),
                     ),
                     TextField(
+                      controller: controller_email,
                       style: TextStyle(
                           fontSize: 18, color: Color.fromARGB(255, 0, 0, 0)),
                       decoration: InputDecoration(
                         enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(color: orange)),
                         border: OutlineInputBorder(),
-                        hintText: "Nhuthoa@gmail.com",
+                        hintText: "$email",
 
                         hintStyle: TextStyle(
                             color: Color.fromARGB(255, 58, 58, 58),
@@ -201,7 +255,7 @@ class _ChinhsuahosoScreenState extends State<ChinhsuahosoScreen> {
                         enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(color: orange)),
                         border: OutlineInputBorder(),
-                        hintText: "123456",
+                        hintText: "*******",
 
                         hintStyle: TextStyle(
                             color: Color.fromARGB(255, 58, 58, 58),
@@ -233,18 +287,9 @@ class _ChinhsuahosoScreenState extends State<ChinhsuahosoScreen> {
                                 RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(20),
                                     side: BorderSide(color: orange)))),
-                        onPressed: () {
-                          Navigator.pop(context);
-                          // Navigator.of(context)
-                          //     .popUntil((route) => route.isFirst);
-                          // Navigator.push(
-                          //     context,
-                          //     MaterialPageRoute(
-                          //         builder: (context) =>
-                          //             const QuanlihosoScreen()));
-                        },
+                        onPressed: _incrementCounter,
                         child: Text(
-                          'Lưu',
+                          'cập nhật',
                           style: TextStyle(
                               fontSize: 22, fontWeight: FontWeight.bold),
                         )),
