@@ -4,6 +4,8 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_application_1/Screen/Doikhang.dart';
 import 'package:flutter_application_1/component/widget_item.dart';
 import 'package:flutter_application_1/model/db_content.dart';
+import 'package:flutter_application_1/object/xephangdoikhang.dart';
+import 'package:flutter_application_1/provider/xephangdoikhang.dart';
 
 class Xephangdoikhang extends StatefulWidget {
   const Xephangdoikhang({super.key});
@@ -13,8 +15,20 @@ class Xephangdoikhang extends StatefulWidget {
 }
 
 class _XephangdoikhangState extends State<Xephangdoikhang> {
+ List<DoikhangObject> lsContact = [];
+  void _LoadDanhSach()async{
+    final data = await DoikhangProvider.getAllContacts();
+    setState(() {
+      lsContact = data;});}
+  @override
+  void initState(){
+    super.initState();
+    _LoadDanhSach();}
   @override
   Widget build(BuildContext context) {
+    var mlr = 20.0;
+    var r = MediaQuery.of(context).size.width - mlr;
+    var l = MediaQuery.of(context).size.width - mlr;
     return Scaffold(
         body: Container(
      // margin: EdgeInsets.fromLTRB(0, 30, 0, 0),
@@ -35,7 +49,7 @@ class _XephangdoikhangState extends State<Xephangdoikhang> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Container(
-              margin: EdgeInsets.fromLTRB(0, 0, 20, 0),
+              margin: EdgeInsets.fromLTRB(0, 0, 30, 0),
               child: InkWell(
                   onTap: () {
                     Navigator.pop(context);
@@ -200,13 +214,75 @@ class _XephangdoikhangState extends State<Xephangdoikhang> {
           Container(
               height: MediaQuery.of(context).size.height * 0.45,
               child: Column(children: [
-                Expanded(
+                 Expanded(
                   child: ListView.builder(
-                    itemCount: db_context.items.length,
+                    itemCount: lsContact.length,
                     itemBuilder: (context, index) {
-                      return DoikhangFrame(
-                        info: db_context.items[index],
-                      );
+                      return Container(
+      padding: EdgeInsets.fromLTRB(10, 0, 10, 10),
+      child: ConstrainedBox(
+        constraints: BoxConstraints(minHeight: 70, minWidth: r),
+        child: OutlinedButton(
+          style: OutlinedButton.styleFrom(
+            primary: Colors.orange,
+            side: BorderSide(width: 1, color: Colors.orange),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(10),
+            ),
+          ),
+          onPressed: () {
+            // Navigator.of(context).popUntil((route) => route.isFirst);
+            // Navigator.push(context, MaterialPageRoute(builder: (context) => const QuanlitaikhoanScreen()));
+          },
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Row(
+                children: [
+                  Text(
+                   lsContact[index].id.toString(),
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
+                    child: SizedBox(
+                      width: 50,
+                      height: 50,
+                      child: ClipOval(
+                        child: Image(
+                          image: NetworkImage(lsContact[index].picture),
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                    ),
+                  ),
+                  Text(
+                   lsContact[index].name,
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 12,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                 
+                  Text( 
+                   lsContact[index].score.toString() + ' KN',
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 12,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
                     },
                   ),
                 )
@@ -229,11 +305,11 @@ class _XephangdoikhangState extends State<Xephangdoikhang> {
                 Row(
                   children: [
                     Text(
-                      '99',
+                      '--',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 18,
-                          color: Colors.white),
+                          color: Colors.black),
                     ),
                     Padding(
                       padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),

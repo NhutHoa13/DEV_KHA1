@@ -27,7 +27,7 @@ import 'package:flutter_application_1/Screen/choicanhan/Batdau.dart';
 import 'package:flutter_application_1/Screen/choicanhan/Tongket.dart';
 import 'package:flutter_application_1/Screen/Trangchu.dart';
 import 'package:flutter_application_1/Screen/XemXepHangMan.dart';
-import 'package:flutter_application_1/Screen/Xemlichsudau.dart';
+import 'package:flutter_application_1/Screen/Xemlichsudau/Xemlichsudau.dart';
 import 'package:flutter_application_1/Screen/Xemxephang.dart';
 import 'package:flutter_application_1/Screen/aaa.dart';
 import 'package:flutter_application_1/Screen/daudoikhang.dart';

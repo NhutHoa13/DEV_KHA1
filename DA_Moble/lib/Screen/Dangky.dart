@@ -16,11 +16,11 @@ class DangkyScreen extends StatefulWidget {
 
 class _DangkyScreenState extends State<DangkyScreen> {
   bool validate = false;
-//  TextEditingController txtuser = TextEditingController();
-//  TextEditingController txtemail= TextEditingController();
-//  TextEditingController txtpassword = TextEditingController();
-//  TextEditingController txtpassword1 = TextEditingController();
-//     final _auth = FirebaseAuth.instance;
+ TextEditingController txtuser = TextEditingController();
+ TextEditingController txtemail= TextEditingController();
+ TextEditingController txtpassword = TextEditingController();
+ TextEditingController txtpassword1 = TextEditingController();
+    final _auth = FirebaseAuth.instance;
 
   void hiden() {
     setState(() {
@@ -68,7 +68,7 @@ class _DangkyScreenState extends State<DangkyScreen> {
                           Container(
                             child: InkWell(
                               onTap: () {
-                                Navigator.pop(context);
+                                // Navigator.pop(context);
                                 // Navigator.of(context).popUntil((route) => route.isFirst);
                                 // Navigator.push(
                                 //     context,

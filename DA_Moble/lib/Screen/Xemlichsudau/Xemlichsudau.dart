@@ -155,19 +155,3 @@ class _XemlichdauScreenState extends State<XemlichdauScreen> with SingleTickerPr
     );
   }
  }
-// Column(children: [
-//           Container(
-//               height: MediaQuery.of(context).size.height * 0.45,
-//               child: Column(children: [
-//                 Expanded(
-//                   child: TabBarView(
-//                         controller: tabController,
-//                         children: [
-//                           Winscreen(),
-//                           LoseScreen(),
-                          
-//                         ],
-//                       ),
-//                 )
-//               ]))
-//         ]),

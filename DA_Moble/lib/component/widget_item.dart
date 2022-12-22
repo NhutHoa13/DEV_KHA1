@@ -5,6 +5,8 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_application_1/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/model/item.dart';
+import 'package:flutter_application_1/object/xephangcanhan.dart';
+import 'package:flutter_application_1/provider/xephangcanhan.dart';
 
 class CanhanFrame extends StatefulWidget {
   CanhanFrame({super.key, required this.info});
@@ -16,6 +18,15 @@ class CanhanFrame extends StatefulWidget {
 class _InfoState extends State<CanhanFrame> {
   var orange = Color.fromARGB(255, 255, 172, 47);
   @override
+   List<CanhanObject> lsContact = [];
+  void _LoadDanhSach()async{
+    final data = await CanhanProvider.getAllContacts();
+    setState(() {
+      lsContact = data;});}
+  @override
+  void initState(){
+    super.initState();
+    _LoadDanhSach();}
   Widget build(BuildContext context) {
     var mlr = 20.0;
     var r = MediaQuery.of(context).size.width - mlr;
