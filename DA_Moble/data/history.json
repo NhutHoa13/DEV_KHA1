@@ -1,0 +1,188 @@
+{
+  "win": [
+    {
+      "id": 1,
+      "name": "Cao Kỳ",
+      "score": "4806",
+  "picture": "https://randomuser.me/api/portraits/thumb/women/88.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Knapp Berry",
+      "score": "3505",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/14.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Bell Burgess",
+      "score": "2302",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/20.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Hobbs Ferrell",
+      "score": "2001",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/61.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Marylou Medina",
+      "score": "1989",
+  "picture": "https://randomuser.me/api/portraits/thumb/women/6.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Larson Guerra",
+      "score": "1976",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/70.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Shelby Ballard",
+      "score": "1963",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Lea Faulkner",
+      "score": "1953",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/10.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Cecelia Wolf",
+      "score": "1900",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/11.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Melva Nixon",
+      "score": "1826",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/12.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Bernard Chambers",
+      "score": "1800",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/13.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Wendi Bender",
+      "score": "1899",
+  "picture": "https://randomuser.me/api/portraits/thumb/women/14.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Wall Stewart",
+      "score": "1796",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/15.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Howell Gilbert",
+      "score": "1789",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/16.jpg"
+    }
+    
+  ],
+  "lose":[
+    {
+      "id": 15,
+      "name": "Nguyen Maxwell",
+      "score": "1764",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/17.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Norris Hendricks",
+      "score": "1746",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/18.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Salinas Mcleod",
+      "score": "1739",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/19.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Michelle Barrett",
+      "score": "1732",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/20.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Burke Barlow",
+      "score": "1720",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/21.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Rosie Cummings",
+      "score": "1715",
+  "picture": "https://randomuser.me/api/portraits/thumb/women/22.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Sanford Frye",
+      "score": "1705",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/23.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Janna Peck",
+      "score": "1685",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/24.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Lorraine Sykes",
+      "score": "1621",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/25.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Vicki Fulton",
+      "score": "1589",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/26.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Massey Moody",
+      "score": "1530",
+  "picture": "https://randomuser.me/api/portraits/thumb/women/27.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Grant Berg",
+      "score": "1430",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/28.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Hawkins Winters",
+      "score": "1290",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/29.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Frazier Davidson",
+      "score": "1270",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/30.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Francine Cervantes",
+      "score": "1250",
+  "picture": "https://randomuser.me/api/portraits/thumb/men/31.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Francis Perez",
+      "score": "1230",
+      
+  "picture": "https://randomuser.me/api/portraits/thumb/men/32.jpg"
+    }
+  ]
+}

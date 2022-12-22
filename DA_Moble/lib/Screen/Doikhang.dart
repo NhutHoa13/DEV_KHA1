@@ -5,7 +5,7 @@ import 'package:flutter/src/widgets/framework.dart';
 
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter_application_1/Screen/Timtran.dart';
-import 'package:flutter_application_1/Screen/Xemlichsudau.dart';
+import 'package:flutter_application_1/Screen/Xemlichsudau/Xemlichsudau.dart';
 import 'package:flutter_application_1/Screen/Xemxephang.dart';
 import 'package:flutter_application_1/Screen/Xephangdoikhang.dart';
 import 'package:flutter_application_1/Screen/xemhoso.dart';
