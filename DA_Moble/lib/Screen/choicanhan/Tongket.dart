@@ -104,7 +104,7 @@ mainAxisAlignment: MainAxisAlignment.center,
          padding: const EdgeInsets.all(8.0),
          child:  InkWell(
           onTap: () {
-            Navigator.push(context, MaterialPageRoute(builder: (context) => XemXhangMan(marks: widget.marks)));
+            Navigator.push(context, MaterialPageRoute(builder: (context) => XemXhangMan(marks: widget.marks,man:"" ,)));
           },
           child: Container(
             margin: EdgeInsets.fromLTRB(0, 0, 0, 0),

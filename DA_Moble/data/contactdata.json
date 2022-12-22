@@ -181,5 +181,73 @@
         
 		"picture": "https://randomuser.me/api/portraits/thumb/men/32.jpg"
       }
+    ],
+    "man":[
+      {
+        "id": 1,
+        "name": "Melva Nixon",
+        "score": "1826",
+		"picture": "https://randomuser.me/api/portraits/thumb/men/12.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Bernard Chambers",
+        "score": "1800",
+		"picture": "https://randomuser.me/api/portraits/thumb/men/13.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Wendi Bender",
+        "score": "1899",
+		"picture": "https://randomuser.me/api/portraits/thumb/women/14.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Wall Stewart",
+        "score": "1796",
+		"picture": "https://randomuser.me/api/portraits/thumb/men/15.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Howell Gilbert",
+        "score": "1789",
+		"picture": "https://randomuser.me/api/portraits/thumb/men/16.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Nguyen Maxwell",
+        "score": "1764",
+		"picture": "https://randomuser.me/api/portraits/thumb/men/17.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Norris Hendricks",
+        "score": "1746",
+		"picture": "https://randomuser.me/api/portraits/thumb/men/18.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Salinas Mcleod",
+        "score": "1739",
+		"picture": "https://randomuser.me/api/portraits/thumb/men/19.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Michelle Barrett",
+        "score": "1732",
+		"picture": "https://randomuser.me/api/portraits/thumb/men/20.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Burke Barlow",
+        "score": "1720",
+		"picture": "https://randomuser.me/api/portraits/thumb/men/21.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Rosie Cummings",
+        "score": "1715",
+		"picture": "https://randomuser.me/api/portraits/thumb/women/22.jpg"
+      }
     ]
 }

@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:flutter_application_1/Screen/XemXepHangMan.dart';
 import 'package:flutter_application_1/Screen/choicanhan/Bando.dart';
 import 'package:flutter_application_1/Screen/choicanhan/getjason.dart';
 import 'package:flutter_application_1/Screen/choicanhan/man2.dart';
@@ -109,7 +110,11 @@ int socau=10;
                         ));
                       
                       }),
-                      button_orange(context, 'Xếp hạng ', 100, () {}),
+                      button_orange(context, 'Xếp hạng ', 100, () {
+                         Navigator.of(context).pushReplacement(MaterialPageRoute(
+                          builder: (context) => XemXhangMan(marks: 0,man: widget.text ,)
+                        ));
+                      }),
                     ],
                   ),
                 ),
