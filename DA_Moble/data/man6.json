@@ -1,0 +1,178 @@
+[
+    {
+        "1": "They……..me about it last week.",
+        "2": "“Are you ready ,Ann?” “Yes,I……………”",
+        "3": "I’m going on holiday on Saturday.This time next week I……on a beach in the sea.  ",
+        "4": "He has been selling motorcycles……………",
+        "5": "The restaurants on the island are expensive, so it’s worth ..................a packed lunch.",
+        "6": "The sun……….in the East.",
+        "7": "We ………Doris since last Sunday.",
+        "8": "I don’t understand this sentence.What…………………….?",
+        "9": "I ...................... work last week, but I changed my mind.",
+        "10":"I……..here at the end of the month.",
+        "11":"………..you go to the dentist?",
+        "12":"At last the bus came.We ………..for half an hour.",
+        "13":"He fell down when he ……towards the church.",
+        "14":"At 5 o’clock yesterday evening, I………my clothes.",
+        "15":"I…………..my son the money for that last week.",
+        "16":"Ask her to come and see me when she ………her work.",
+        "17":"Ask her to come and see me when she ………her work.",
+        "18":"Ask her to come and see me when she ………her work.",
+        "19":"Ask her to come and see me when she ………her work.",
+        "20":"Ask her to come and see me when she ………her work.",
+        "21":"Ask her to come and see me when she ………her work."
+    },
+    {
+        "1": {
+            "a":"was telling",
+            "b":"finish",
+            "c":"finishing", 
+            "d":"finished"
+        },
+        "2": {
+            "a":" has finished",
+            "b":"am coming ",
+            "c":"finishing", 
+            "d":"finished"
+        },
+        "3": {
+            "a":"will be lying ",
+            "b":"finish",
+            "c":"finishing", 
+            "d":"finished"
+        },
+        "4": {
+            "a":" has finished",
+            "b":"for ten years",
+            "c":"finishing", 
+            "d":"finished"
+        },
+        "5": {
+            "a":"to take",
+            "b":"finish",
+            "c":"finishing", 
+            "d":"finished"
+        },
+
+        "6": {
+            "a":" has finished",
+            "b":"finish",
+            "c":"rises",
+            "d":"finished"
+        },
+        "7": {
+            "a":" has finished",
+            "b":"finish",
+            "c":"finishing", 
+            "d":"hadn't seen"
+        },
+        "8": {
+            "a":" has finished",
+            "b":"finish",
+            "c":"finishing", 
+            "d":"does this word mean"
+        },
+        "9":{
+            "a":"was going to start",
+            "b":"finish",
+            "c":"finishing", 
+            "d":"finished"
+        }, 
+        "10":{
+            "a":" has finished",
+            "b": "would leave",
+            "c":"finishing", 
+            "d":"finished"
+        },
+        "11":{
+            "a":" has finished",
+            "b":"finish",
+            "c":"How often do",
+            "d":"finished"
+        },
+        "12":{
+            "a":" has finished",
+            "b":"finish",
+            "c":"finishing", 
+            "d":"had been waiting"
+        },
+        "13":{
+            "a":"runs",
+            "b":"finish",
+            "c":"finishing", 
+            "d":"finished"
+        },
+        "14":{
+            "a":" has finished",
+            "b":"finish",
+            "c":"am ironing", 
+            "d":"finished"
+        },
+        "15":{
+            "a":" has finished",
+            "b":"finish",
+            "c":"was given", 
+            "d":"finished"
+        },
+        "16":{
+            "a":" has finished",
+            "b":"finish",
+            "c":"finishing", 
+            "d":"finished"
+        },
+        "17":{
+            "a":" has finished",
+            "b":"finish",
+            "c":"finishing", 
+            "d":"finished"
+        },
+        "18":{
+            "a":" has finished",
+            "b":"finish",
+            "c":"finishing", 
+            "d":"finished"
+        },
+        "19":{
+            "a":" has finished",
+            "b":"finish",
+            "c":"finishing", 
+            "d":"finished"
+        },
+        "20":{
+            "a":" has finished",
+            "b":"finish",
+            "c":"finishing", 
+            "d":"finished"
+        },
+        "21": {
+            "a":" has finished",
+            "b":"finish",
+            "c":"finishing", 
+            "d":"finished"
+        }
+    },
+    {
+        "1": "was telling",
+        "2": "am coming ",
+        "3": "will be lying ",
+        "4": "for ten years",
+        "5": "to take",
+        "6": "rises",
+        "7": "hadn't seen",
+        "8": "does this word mean",
+        "9": "was going to start",
+        "10":"would leave",
+        "11":"How often do",
+        "12":"had been waiting",
+        "13":"runs",
+        "14":"am ironing",
+        "15":"was given",
+        "16":"finished",
+        "17":"finished",
+        "18":"finished",
+        "19":"finished",
+        "20":"finished",
+        "21":"finished"
+    }
+
+]
