@@ -1,0 +1,178 @@
+[
+    {
+        "1": "There is a new ______ of hand made flowers at this city gallery",
+        "2":"The Brit School is the most famous ____ arts school in Britain",
+        "3":"Trinh Cong Son is one of the most famous ____ in Vietnam.",
+        "4":"Trumpet and trombone are brass _____.",
+        "5":"There is an exhibition of Dong Ho paintings at Country ____.",
+        "6":"Will you go to _____ with me tonight? A new film is shown at 8 p.m.",
+        "7":"Dong Ho painting is made on _____ paper with beautiful ____ colors.",
+        "8":"Water puppetry _____ in the 11th century in the villages of the Red River Delta of North Vietnam.",
+        "9":"The performances of puppetry show everyday life in the countryside and _____.",
+        "10":"Music adds joyfulness to the atmosphere of a(n) _____.",
+        "11":"______ is traditional music from a particular country, region, or community.",
+        "12":"A ______ is the person who is so funny and makes people laugh happily.",
+        "13":"Mozart was one of the most famous ______ of classical music.",
+        "14":" _____ is the art of taking and processing photographs.",
+        "15":"Peter has received a letter of _____ to see a water puppet show this Sunday.",
+        "16":"The film contains explicit _____ of violence.",
+        "17":"Their songs continue to enjoy widespread _____ among teenagers.",
+        "18":"Music _____ an important role in human beings emotional life.",
+        "19":"Music _____ an important role in human beings emotional life.",
+        "20":"Music _____ an important role in human beings emotional life.",
+        "21":"Music _____ an important role in human beings emotional life."
+    },
+    {
+        "1": {
+            "a":" entertainment",
+            "b":"exhibition",
+            "c":"fame", 
+            "d":"popularity"
+        },
+        "2": {
+            "a":"performing",
+            "b":"exhibition",
+            "c":"fame", 
+            "d":"popularity"
+        },
+        "3": {
+            "a":"performing",
+            "b":"place",
+            "c":"fame", 
+            "d":"song writers"
+        },
+        "4": {
+            "a":" entertainment",
+            "b":"exhibition",
+            "c":"fame", 
+            "d":"song writers"
+        },
+        "5": {
+            "a":" entertainment",
+            "b":"joyfulness",
+            "c":" instruments", 
+            "d":"popularity"
+        },
+
+        "6": {
+            "a":"gallery",
+            "b":"joyfulness",
+            "c":"fame", 
+            "d":"popularity"
+        },
+        "7": {
+            "a":" entertainment",
+            "b":" cinema",
+            "c":"fame", 
+            "d":"popularity"
+        },
+        "8": {
+            "a":" entertainment",
+            "b":"joyfulness",
+            "c":"fame", 
+            "d":"traditional/natural"
+        },
+        "9":{
+            "a":"orginated",
+            "b":"joyfulness",
+            "c":"fame", 
+            "d":"popularity"
+        }, 
+        "10":{
+            "a":" entertainment",
+            "b":"joyfulness",
+            "c":"folk tales", 
+            "d":"popularity"
+        },
+        "11":{
+            "a":" entertainment",
+            "b":"festival",
+            "c":"fame", 
+            "d":"popularity"
+        },
+        "12":{
+            "a":"Folk music",
+            "b":"joyfulness",
+            "c":"fame", 
+            "d":"popularity"
+        },
+        "13":{
+            "a":" entertainment",
+            "b":"joyfulness",
+            "c":"comedian", 
+            "d":"popularity"
+        },
+        "14":{
+            "a":" entertainment",
+            "b":"joyfulness",
+            "c":"composers", 
+            "d":"popularity"
+        },
+        "15":{
+            "a":" entertainment",
+            "b":"Photography",
+            "c":"fame", 
+            "d":"popularity"
+        },
+        "16":{
+            "a":" entertainment",
+            "b":"joyfulness",
+            "c":"fame", 
+            "d":"invitation"
+        },
+        "17":{
+            "a":"scene",
+            "b":"joyfulness",
+            "c":"fame", 
+            "d":"popularity"
+        },
+        "18":{
+            "a":" entertainment",
+            "b":"joyfulness",
+            "c":"band", 
+            "d":"plays"
+        },
+        "19":{
+            "a":" entertainment",
+            "b":"joyfulness",
+            "c":"fame", 
+            "d":"plays"
+        },
+        "20":{
+            "a":" entertainment",
+            "b":"joyfulness",
+            "c":"fame", 
+            "d":"plays"
+        },
+        "21": {
+            "a":" entertainment",
+            "b":"joyfulness",
+            "c":"fame", 
+            "d":"plays"
+        }
+    },
+    {
+        "1": "exhibition",
+        "2": "performing",
+        "3": " on",
+        "4": "song writers",
+        "5": " instruments",
+        "6": "gallery",
+        "7": " cinema",
+        "8": "traditional/natural",
+        "9": "orginated",
+        "10":"folk tales",
+        "11":"festival",
+        "12":"Folk music",
+        "13":"comedian",
+        "14":"composers",
+        "15":"Photography",
+        "16":"invitation",
+        "17":"scene",
+        "18":"plays",
+        "19":"plays",
+        "20":"plays",
+        "21":"plays"
+    }
+
+]

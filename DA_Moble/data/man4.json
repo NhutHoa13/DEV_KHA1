@@ -1,0 +1,178 @@
+[
+    {
+        "1": "That's a very nice dress you're wearing. - ............",
+        "2": "............to stay the night? Oh, that's very kind of you.",
+        "3": "Shall we have a farewell party next week? - Yes, let's make .........next Saturday evening.",
+        "4": "Does Tommy like hamburgers? - Yes ............He eats them almost everyday.",
+        "5": " Don't you remember ............this film star on TV last year?",
+        "6": " Is this the first time that you ............to this country?",
+        "7": "Would you like some beer?  Yes, just............",
+        "8": "Have you brought my umbrella? Oh, no! I ............again. That is stupid of me.",
+        "9": "How much is the computer? It's ............$500. I'm sure it is.",
+        "10": " Is he a scientist?  No. He is ............ a scientist ............ an author, a famous author",
+        "11": "What's the name of the girl ............?",
+        "12": "Did you hear about ............his first job? Yes, I was surprised because he's a hard-working person.",
+        "13":"Is that girl ............wants to talk to me sometime?",
+        "14":"What are you going to do this weekend? - ............",
+        "15":"Can you help me ............the ............bicycles?",
+        "16":"Have you taken notice ............the  sign?",
+        "17":" ............do you think ............the first prize?",
+        "18":"............?  Yes, the clock says nine o'clock.",
+        "19":"Do you mind if I borrow your plate?  ............Do you need only one?",
+        "20":"How long does it take to get to the supermarket from your house? - ............",
+        "21":"Would you please ............so loudly?"
+    },
+    {
+        "1": {
+            "a":" would you rather",
+            "b":"will you rather",
+            "c":"do you rather", 
+            "d":"I'm glad you like it"
+        },
+        "2": {
+            "a":"Would you like",
+            "b":"will you rather",
+            "c":"do you rather", 
+            "d":"should you rather"
+        },
+        "3": {
+            "a":" would you rather",
+            "b": "on",
+            "c":"do you rather", 
+            "d":"should you rather"
+        },
+        "4": {
+            "a":" would you rather",
+            "b":"will you rather",
+            "c":"do you rather", 
+            "d":" So much"
+        },
+        "5": {
+            "a":" would you rather",
+            "b":"seeing",
+            "c":"do you rather", 
+            "d":"should you rather"
+        },
+
+        "6": {
+            "a":" would you rather",
+            "b":"have come",
+            "c":"do you rather", 
+            "d":"should you rather"
+        },
+        "7": {
+            "a":" would you rather",
+            "b":"will you rather",
+            "c":"do you rather", 
+            "d":"a little"
+        },
+        "8": {
+            "a":" would you rather",
+            "b":"will you rather",
+            "c":"have forgotten", 
+            "d":"should you rather"
+        },
+        "9":{
+            "a":" would you rather",
+            "b":"will you rather",
+            "c":"must be",
+            "d":"should you rather"
+        }, 
+        "10":{
+            "a":" would you rather",
+            "b":"will you rather",
+            "c":"not / but", 
+            "d":"should you rather"
+        },
+        "11":{
+            "a":" would you rather",
+            "b":"will you rather",
+            "c":"who sells tickets",
+            "d":"should you rather"
+        },
+        "12":{
+            "a":"Tom's losing",
+            "b":"will you rather",
+            "c":"do you rather", 
+            "d":"should you rather"
+        },
+        "13":{
+            "a":" would you rather",
+            "b":"will you rather",
+            "c":"do you rather", 
+            "d":"who"
+        },
+        "14":{
+            "a":" would you rather",
+            "b":"We plan to visit my grandparents.",
+            "c":"do you rather", 
+            "d":"should you rather"
+        },
+        "15":{
+            "a":"to find / stolen",
+            "b":"will you rather",
+            "c":"do you rather", 
+            "d":"should you rather"
+        },
+        "16":{
+            "a":"of",
+            "b":"will you rather",
+            "c":"do you rather", 
+            "d":"should you rather"
+        },
+        "17":{
+            "a":" would you rather",
+            "b":"will you rather",
+            "c":"do you rather", 
+            "d":"Who/ will win"
+        },
+        "18":{
+            "a":" would you rather",
+            "b":"Is it time to leave.",
+            "c":"do you rather", 
+            "d":"should you rather"
+        },
+        "19":{
+            "a":"Not at all",
+            "b":"will you rather",
+            "c":"do you rather", 
+            "d":"should you rather"
+        },
+        "20":{
+            "a":" would you rather",
+            "b":"will you rather",
+            "c":"ten minutes",
+            "d":"should you rather"
+        },
+        "21": {
+            "a":" would you rather",
+            "b":"will you rather",
+            "c":"do you rather", 
+            "d":" not speak"
+        }
+    },
+    {
+        "1": "I'm glad you like it",
+        "2": "Would you like",
+        "3": " on",
+        "4": " So much",
+        "5": "seeing",
+        "6": "have come",
+        "7": "a little",
+        "8": "have forgotten",
+        "9": "must be",
+        "10":"not / but",
+        "11":"who sells tickets",
+        "12":"Tom's losing",
+        "13":"who",
+        "14":"We plan to visit my grandparents.",
+        "15":"to find / stolen",
+        "16":"of",
+        "17":"Who/ will win",
+        "18":"Is it time to leave.",
+        "19":"Not at all",
+        "20":"ten minutes",
+        "21":" not speak"
+    }
+
+]

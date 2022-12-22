@@ -1,0 +1,177 @@
+[
+    {
+        "1": "There are four people _________________ my family.",
+        "2": "_________________ does she live? She lives in Hanoi.",
+        "3": "What _________________ she do?",
+        "4": "This _________________ my book.",
+        "5": "I live _________________ a big city.",
+        "6": "What does Mary do? She is _________________ doctor in a big hospital.",
+        "7": "_________________ father is a teacher at a junior high school",
+        "8": "How do you _________________ your name?",
+        "9": "I am _________________ child in my family",
+        "10": "Where _________________ he _________________ from?",
+        "11": "What is _________________ phone number?",
+        "12": "The price of fruit has increased recently, ________ the price of vegetables has gone down.",
+        "13":"I'm sure you'll have no _______ the exam.",
+        "14":"He's a very _________ person because he can make other workers follow his advice.",
+        "15":"Today, household chores have been made much easier by electrical ________.",
+        "16":"How long does the play ______?",
+        "17":"How long does the play ______?",
+        "18":"How long does the play ______?",
+        "19":"How long does the play ______?",
+        "20":"How long does the play ______?",
+        "21":"How long does the play ______?"
+    },
+    {
+        "1": {
+            "a":"in",
+            "b":"on",
+            "c":"at", 
+            "d":"into"
+        },
+        "2": {
+            "a":"in",
+            "b":"where",
+            "c":"at", 
+            "d":"into"
+        },
+        "3": {
+            "a":"in",
+            "b":"is",
+            "c":"at", 
+            "d":"into"
+        },
+        "4": {
+            "a":"in",
+            "b":"is",
+            "c":"at", 
+            "d":"on"
+        },
+        "5": {
+            "a":"in",
+            "b":"on",
+            "c":"at", 
+            "d":"in"
+        },
+        "6": {
+            "a":"a",
+            "b":"on",
+            "c":"at", 
+            "d":"into"
+        },
+        "7": {
+            "a":"in",
+            "b":"on",
+            "c":"Her", 
+            "d":"into"
+        },
+        "8": {
+            "a":"Spell",
+            "b":"on",
+            "c":"at", 
+            "d":"into"
+        },
+        "9":{
+            "a":"in",
+            "b":"on",
+            "c":"at", 
+            "d":"The only"
+        }, 
+        "10":{
+            "a":"in",
+            "b":"on",
+            "c":"Does/come", 
+            "d":"into"
+        },
+        "11":{
+            "a":"in",
+            "b":"Your",
+            "c":"at", 
+            "d":"into"
+        },
+        "12":{
+            "a":"in",
+            "b":"on",
+            "c":"at", 
+            "d":"into"
+        },
+        "13":{
+            "a":"John Smith, whose land I bought, is a farmer",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "14":{
+            "a":"can",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "15":{
+            "a":"whereas",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "16":{
+            "a":"difficulty passing",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "17":{
+            "a":"influential",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "18":{
+            "a":"appliances.",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "19":{
+            "a":"last",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "20":{
+            "a":"a limited number of readers in a particular area of knowledge",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "21": {
+            "a":"last",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        }
+    },
+    {
+        "1": "will get",
+        "2": "little",
+        "3": "has",
+        "4": "It is difficult to solve the problem.",
+        "5": "Although",
+        "6": "have done",
+        "7": "common",
+        "8": "modernizing",
+        "9": "back",
+        "10":"discipline / regular",
+        "11":"do",
+        "12":"method",
+        "13":"John Smith, whose land I bought, is a farmer",
+        "14":"can",
+        "15":"whereas",
+        "16":"difficulty passing",
+        "17":"influential",
+        "18":"appliances.",
+        "19":"last",
+        "20":"a limited number of readers in a particular area of knowledge",
+        "21":"last"
+    }
+
+]

@@ -1,0 +1,177 @@
+[
+    {
+        "1": "I'm sure Bill __________ the job. He has a lot of experiences.",
+        "2": "We need more sugar. There is _______ sugar in the pot.",
+        "3": "The problem is difficult to solve.",
+        "4": " Internet services are rather easy to use, you will have considerable difficulties if you are not familiar with English.",
+        "5": "As soon as you _________ all your homework, you will be allowed to go out.",
+        "6": "Cancer is _______ in many animals.",
+        "7": "the equipment in our office needs _______________.",
+        "8": "I wish I hadn't said it. If only I could turn the clock _________.",
+        "9": "Health and fitness are for anyone willing to accept the ___________ for a good diet and ________ exercise.",
+        "10": "In the winter, you should __________ push-ups, sit-ups, and other indoor exercises.",
+        "11": "John Smith is a farmer. I bought his land.",
+        "12": "The price of fruit has increased recently, ________ the price of vegetables has gone down.",
+        "13":"I'm sure you'll have no _______ the exam.",
+        "14":"He's a very _________ person because he can make other workers follow his advice.",
+        "15":"Today, household chores have been made much easier by electrical ________.",
+        "16":"How long does the play ______?",
+        "17":"How long does the play ______?",
+        "18":"How long does the play ______?",
+        "19":"How long does the play ______?",
+        "20":"How long does the play ______?",
+        "21":"How long does the play ______?"
+    },
+    {
+        "1": {
+            "a":"getting",
+            "b":"was getting",
+            "c":"will get", 
+            "d":"will asd"
+        },
+        "2": {
+            "a":"little",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "3": {
+            "a":"getting",
+            "b":"was getting",
+            "c":"has",
+            "d":"will asd"
+        },
+        "4": {
+            "a":"getting",
+            "b":"was getting",
+            "c":"will get",
+            "d":"It is difficult to solve the problem."
+        },
+        "5": {
+            "a":"getting",
+            "b":"was getting",
+            "c":"Although",
+            "d":"will asd"
+        },
+        "6": {
+            "a":"have done",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "7": {
+            "a":"common",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "8": {
+            "a":"modernizing",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "9":{
+            "a":"back",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        }, 
+        "10":{
+            "a":"discipline / regular",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "11":{
+            "a":"do",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "12":{
+            "a":"method",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "13":{
+            "a":"John Smith, whose land I bought, is a farmer",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "14":{
+            "a":"can",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "15":{
+            "a":"whereas",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "16":{
+            "a":"difficulty passing",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "17":{
+            "a":"influential",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "18":{
+            "a":"appliances.",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "19":{
+            "a":"last",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "20":{
+            "a":"a limited number of readers in a particular area of knowledge",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "21": {
+            "a":"last",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        }
+    },
+    {
+        "1": "will get",
+        "2": "little",
+        "3": "has",
+        "4": "It is difficult to solve the problem.",
+        "5": "Although",
+        "6": "have done",
+        "7": "common",
+        "8": "modernizing",
+        "9": "back",
+        "10":"discipline / regular",
+        "11":"do",
+        "12":"method",
+        "13":"John Smith, whose land I bought, is a farmer",
+        "14":"can",
+        "15":"whereas",
+        "16":"difficulty passing",
+        "17":"influential",
+        "18":"appliances.",
+        "19":"last",
+        "20":"a limited number of readers in a particular area of knowledge",
+        "21":"last"
+    }
+
+]

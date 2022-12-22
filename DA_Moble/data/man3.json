@@ -1,0 +1,177 @@
+[
+    {
+        "1": "Who is your father's mother?",
+        "2": "Who is your uncle's daughter?",
+        "3": "Who is your father's son?",
+        "4": "Who is your grandfather's daughter?",
+        "5": "Who is your aunt's husband?",
+        "6": "Who is your wife's brother?",
+        "7": "Who is your sister's son?",
+        "8": "Who is your children's father?",
+        "9": "Who is your nephew's sister?",
+        "10": "Who is your grandson's mother?",
+        "11": "Who is your husband's mother?",
+        "12": "Who is your grandmother's father?",
+        "13":"Who is your niece's mother?",
+        "14":"Who is your husband's father?",
+        "15":"Today, household chores have been made much easier by electrical ________.",
+        "16":"How long does the play ______?",
+        "17":"How long does the play ______?",
+        "18":"How long does the play ______?",
+        "19":"How long does the play ______?",
+        "20":"How long does the play ______?",
+        "21":"How long does the play ______?"
+    },
+    {
+        "1": {
+            "a":"grandfather",
+            "b":"grandmother",
+            "c":"grandfather-in-law", 
+            "d":"grandmother-in-law"
+        },
+        "2": {
+            "a":"grandfather",
+            "b":"grandmother",
+            "c":"cousin",
+            "d":"grandmother-in-law"
+        },
+        "3": {
+            "a":"brother",
+            "b":"grandmother",
+            "c":"grandfather-in-law", 
+            "d":"grandmother-in-law"
+        },
+        "4": {
+            "a":"mother",
+            "b":"grandmother",
+            "c":"grandfather-in-law", 
+            "d":"grandmother-in-law"
+        },
+        "5": {
+            "a":"grandfather",
+            "b":"grandmother",
+            "c":"grandfather-in-law", 
+            "d":"uncle"
+        },
+        "6": {
+            "a":"grandfather",
+            "b":"grandmother",
+            "c":"grandfather-in-law", 
+            "d":"brother-in-law"
+        },
+        "7": {
+            "a":"grandfather",
+            "b":"nephew",
+            "c":"grandfather-in-law", 
+            "d":"grandmother-in-law"
+        },
+        "8": {
+            "a":"grandfather",
+            "b":"grandmother",
+            "c":"husband",
+            "d":"grandmother-in-law"
+        },
+        "9":{
+            "a":"niece",
+            "b":"grandmother",
+            "c":"grandfather-in-law", 
+            "d":"grandmother-in-law"
+        }, 
+        "10":{
+            "a":"grandfather",
+            "b":"grandmother",
+            "c":"daugther",
+            "d":"grandmother-in-law"
+        },
+        "11":{
+            "a":"grandfather",
+            "b":"mother-in-law",
+            "c":"grandfather-in-law", 
+            "d":"grandmother-in-law"
+        },
+        "12":{
+            "a":"grandfather",
+            "b":"great grandfather",
+            "c":"grandfather-in-law", 
+            "d":"grandmother-in-law"
+        },
+        "13":{
+            "a":"sister",
+            "b":"grandmother",
+            "c":"grandfather-in-law", 
+            "d":"grandmother-in-law"
+        },
+        "14":{
+            "a":"grandfather",
+            "b":"father-in-law",
+            "c":"grandfather-in-law", 
+            "d":"grandmother-in-law"
+        },
+        "15":{
+            "a":"grandfather",
+            "b":"grandmother",
+            "c":"aunt", 
+            "d":"grandmother-in-law"
+        },
+        "16":{
+            "a":"difficulty passing",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "17":{
+            "a":"influential",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "18":{
+            "a":"appliances.",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "19":{
+            "a":"last",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "20":{
+            "a":"a limited number of readers in a particular area of knowledge",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        },
+        "21": {
+            "a":"last",
+            "b":"was getting",
+            "c":"will get",
+            "d":"will asd"
+        }
+    },
+    {
+        "1": "grandmother",
+        "2": "cousin",
+        "3": "brother",
+        "4": "mother",
+        "5": "uncle",
+        "6": "brother-in-law",
+        "7": "nephew",
+        "8": "husband",
+        "9": "niece",
+        "10":"daugther",
+        "11":"mother-in-law",
+        "12":"great grandfather",
+        "13":"sister",
+        "14":"father-in-law",
+        "15":"aunt",
+        "16":"difficulty passing",
+        "17":"influential",
+        "18":"appliances.",
+        "19":"last",
+        "20":"a limited number of readers in a particular area of knowledge",
+        "21":"last"
+    }
+
+]
