@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -12,6 +13,32 @@ class CaidatScreen extends StatefulWidget {
 }
 
 class _CaidatScreenState extends State<CaidatScreen> {
+final player = AudioPlayer();
+  bool isSwitched =true;
+void toggleSwitch(bool value) {  
+  
+    if(isSwitched == false)  
+    {  
+      setState(() {  
+        isSwitched = true;  
+       
+      });  
+     
+                    player.play(AssetSource(
+                        'images/music.mp3'));
+                  
+    }  
+    else  
+    {  
+      setState(() {  
+        isSwitched = false;  
+        
+      });  
+      player.stop(); 
+    }  
+  }  
+
+
    bool light1 = true;
    bool light2 = true;
    bool light3= true;
@@ -93,15 +120,17 @@ class _CaidatScreenState extends State<CaidatScreen> {
                       Text('Âm thanh',style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),
                     ],
                   ),
-                   Switch(
-                    
-                            value: light2,
-                            activeColor: orange ,
-                            onChanged: (bool value) {
-                              setState(() {
-                                light2 = value;
-                              });
-                            }),
+                  Transform.scale(  
+            scale: 1,  
+            child: Switch(  
+              onChanged: toggleSwitch,  
+              value: isSwitched,  
+               activeColor: Colors.yellow,  
+              // activeTrackColor: Colors.yellow,  
+              // inactiveThumbColor: Colors.green,  
+              // inactiveTrackColor: Colors.orange,  
+            )  
+          ),  
                 ],),
               ),
                

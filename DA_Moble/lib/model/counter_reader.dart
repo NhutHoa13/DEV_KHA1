@@ -32,9 +32,4 @@ class CounterReader {
     final f = await _localFile;
     return f.writeAsString('$counter');
   }
-
-  Future<File> writeCounter2(String counter) async {
-    final f = await _localFile;
-    return f.writeAsString('$counter');
-  }
 }
