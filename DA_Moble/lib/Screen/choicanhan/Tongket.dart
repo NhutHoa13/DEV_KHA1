@@ -7,6 +7,7 @@ import 'package:flutter_application_1/Screen/Doikhangthang.dart';
 import 'package:flutter_application_1/Screen/XemXepHangMan.dart';
 import 'package:flutter_application_1/Screen/choicanhan/Batdau.dart';
 import 'package:flutter_application_1/Screen/quiz.dart';
+import 'package:flutter_application_1/Screen/screen.dart';
 import 'package:flutter_application_1/component/widget_item.dart';
 import 'package:flutter_application_1/model/db_content.dart';
 
@@ -104,7 +105,7 @@ mainAxisAlignment: MainAxisAlignment.center,
          padding: const EdgeInsets.all(8.0),
          child:  InkWell(
           onTap: () {
-            Navigator.push(context, MaterialPageRoute(builder: (context) => XemXhangMan(marks: widget.marks)));
+            Navigator.push(context, MaterialPageRoute(builder: (context) => XemXhangMan(marks: widget.marks,man: "",)));
           },
           child: Container(
             margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
@@ -130,8 +131,7 @@ mainAxisAlignment: MainAxisAlignment.center,
             Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => BatdauScreen( text: "",
-                                    title: "",marks: marks,widget: widget,)
+                    builder: (context) => HomeScreen()
                   ));
           },
           child: Container(

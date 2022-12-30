@@ -6,6 +6,7 @@ import 'package:flutter_application_1/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/model/item.dart';
 import 'package:flutter_application_1/object/xephangcanhan.dart';
+import 'package:flutter_application_1/object/xephangdoikhang.dart';
 import 'package:flutter_application_1/provider/xephangcanhan.dart';
 
 class CanhanFrame extends StatefulWidget {
@@ -185,8 +186,8 @@ class _DoikhangFrameState extends State<DoikhangFrame> {
   }
 }
 class ManFrame extends StatefulWidget {
-  ManFrame({super.key, required this.info});
-  final Info info;
+  ManFrame({super.key, required this.doikhangObject});
+  final DoikhangObject doikhangObject;
   @override
   State<ManFrame> createState() => _ManFrameState();
 }
@@ -220,7 +221,7 @@ class _ManFrameState extends State<ManFrame> {
               Row(
                 children: [
                   Text(
-                    widget.info.path_rank,
+                    widget.doikhangObject.id.toString(),
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
                   ),
                   Padding(
@@ -230,14 +231,14 @@ class _ManFrameState extends State<ManFrame> {
                       height: 50,
                       child: ClipOval(
                         child: Image(
-                          image: AssetImage(widget.info.avatar),
+                          image: NetworkImage(widget.doikhangObject.picture),
                           fit: BoxFit.cover,
                         ),
                       ),
                     ),
                   ),
                   Text(
-                    widget.info.name,
+                    widget.doikhangObject.name,
                     style: TextStyle(
                         color: Colors.black,
                         fontSize: 12,
@@ -254,7 +255,7 @@ class _ManFrameState extends State<ManFrame> {
                     image: AssetImage('assets/images/trophy (4).png'),
                   ),
                   Text(
-                    widget.info.current_ranking,
+                    widget.doikhangObject.score,
                     style: TextStyle(
                         color: Colors.black,
                         fontSize: 12,

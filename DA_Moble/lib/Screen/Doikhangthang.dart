@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter_application_1/Screen/Timtran.dart';
 import 'package:flutter_application_1/Screen/screen.dart';
 
 import '../contraints/button.dart';
@@ -119,7 +120,9 @@ class _DoikhangthangScreenState extends State<DoikhangthangScreen> {
                     ],
                   ),
                   SizedBox(height: 20,),
-                  button1(context, 'Chơi lại', (){}),
+                  button1(context, 'Chơi lại', (){
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => TimtranScreen(),));
+                  }),
                   button1(context, 'Tìm đối thủ', (){}),
                   button1(context, 'Thoát', (){  
                      Navigator.of(context).pushReplacement(MaterialPageRoute(

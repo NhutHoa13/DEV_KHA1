@@ -3,19 +3,30 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_application_1/component/widget_item.dart';
 import 'package:flutter_application_1/model/db_content.dart';
+import 'package:flutter_application_1/object/xephangdoikhang.dart';
 
 import '../contraints/color.dart';
+import '../provider/xephangman.dart';
 
 class XemXhangMan extends StatefulWidget {
    int marks=0;
-   XemXhangMan({super.key, required this.marks});
+   String man;
+   XemXhangMan({super.key, required this.marks,required this.man});
 
   @override
   State<XemXhangMan> createState() => _XemXhangManState();
 }
 
 class _XemXhangManState extends State<XemXhangMan> {
- 
+ List<DoikhangObject> lsContact = [];
+  void _LoadDanhSach()async{
+    final data = await ManProvider.getAllContacts();
+    setState(() {
+      lsContact = data;});}
+  @override
+  void initState(){
+    super.initState();
+    _LoadDanhSach();}
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +38,7 @@ class _XemXhangManState extends State<XemXhangMan> {
       appBar: AppBar(
         title: Container(
           child: Text(
-            "Màn 1",
+            "Màn " + widget.man,
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
           ),
         ),
@@ -42,10 +53,10 @@ class _XemXhangManState extends State<XemXhangMan> {
             child: Column(children: [
               Expanded(
                 child: ListView.builder(
-                  itemCount: db_context.items.length,
+                  itemCount: lsContact.length,
                   itemBuilder: (context, index) {
                     return ManFrame(
-                      info: db_context.items[index],
+                      doikhangObject: lsContact[index],
                     );
                   },
                 ),
@@ -72,11 +83,11 @@ class _XemXhangManState extends State<XemXhangMan> {
                 Row(
                   children: [
                     Text(
-                      '99',
+                      '--',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 18,
-                          color: Colors.white),
+                          color: Colors.black),
                     ),
                     Padding(
                       padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),

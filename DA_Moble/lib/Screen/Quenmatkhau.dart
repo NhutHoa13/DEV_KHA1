@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/animation.dart';
@@ -20,29 +22,31 @@ class QuenmatkhauScreen extends StatefulWidget {
 }
 
 class _QuenmatkhauScreenState extends State<QuenmatkhauScreen> {
-  // final _emailcontroller = TextEditingController();
+  final _formkey = GlobalKey<FormState>();
+  var email="";
+  final _emailcontroller = TextEditingController();
   @override
-  // void dispose(){
-  //   _emailcontroller.dispose();
-  //   super.dispose();
-  // }
-  // Future forgot() async{
-  //   try{
-  //     await FirebaseAuth.instance.sendPasswordResetEmail(email: _emailcontroller.text.trim()).then((value) => Navigator.of(context).pop());
-  //       showDialog(context: context, builder: (context){
-  //         return AlertDialog(
-  //           content: Text('Password reset link sent')
-  //         );  
-  //       });
-  //         } on FirebaseAuthException catch(e){
-  //           print(e);
-  //           showDialog(context: context, builder: (context){
-  //             return AlertDialog(
-  //               content: Text(e.message.toString()),
-  //             );
-  //           });
-  //         }
-  // }
+  void dispose(){
+    _emailcontroller.dispose();
+    super.dispose();
+  }
+   forgot() async{
+    try{
+      await FirebaseAuth.instance.sendPasswordResetEmail(email: _emailcontroller.text.trim());
+        showDialog(context: context, builder: (context){
+          return AlertDialog(
+            content: Text('Password reset link sent')
+          );  
+        });
+          } on FirebaseAuthException catch(e){
+            print(e);
+            showDialog(context: context, builder: (context){
+              return AlertDialog(
+                content: Text(e.message.toString()),
+              );
+            });
+          }
+  }
  
   var myLabelStyle = TextStyle(
     color: Colors.black.withOpacity(0.3),
@@ -115,7 +119,7 @@ class _QuenmatkhauScreenState extends State<QuenmatkhauScreen> {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: TextField(
-                       // controller: _emailcontroller,
+                        controller: _emailcontroller,
                         style: myTextStyle,
                         decoration: InputDecoration(
                             enabledBorder: OutlineInputBorder(
@@ -132,16 +136,19 @@ class _QuenmatkhauScreenState extends State<QuenmatkhauScreen> {
                   padding: EdgeInsets.fromLTRB(0, 0, 0, 20),
                   child: ConstrainedBox(
                     constraints: BoxConstraints(minWidth: r / 2, minHeight: 45),
+                    
                     child: ElevatedButton(
+                      
                       style: ButtonStyle(
                           backgroundColor:
                               MaterialStatePropertyAll<Color>(orange),
                           shape: MaterialStateProperty.all(
                               RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20.0)))),
-                      onPressed:(){} ,//forgot,
-                      // child: const Padding(
-                      //     padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                      onPressed:(){
+                        forgot();
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => DangnhapScreen(),));
+                      },
                       child: Text(
                         "Gửi mail",
                         style: TextStyle(
