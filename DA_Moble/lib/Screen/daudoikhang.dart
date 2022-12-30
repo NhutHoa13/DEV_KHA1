@@ -6,6 +6,7 @@ import 'package:flutter/src/widgets/async.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_application_1/Screen/Doikhangthang.dart';
+import 'package:flutter_application_1/Screen/Doikhangthua.dart';
 import 'package:flutter_application_1/Screen/choicanhan/Tongket.dart';
 import 'package:flutter_application_1/Screen/screen.dart';
 
@@ -126,7 +127,7 @@ class _quizState extends State<quiz> {
         ));
       } else {
         Navigator.of(context).pushReplacement(MaterialPageRoute(
-          builder: (context) => DoikhangthangScreen(
+          builder: (context) => DoikhangthuaScreen(
             marks: marks,
             level: socaudung,
           ),

@@ -45,16 +45,27 @@ Future<void> main(List<String> args) async {
     await Firebase.initializeApp();
     db_context.createData();
   db_lichsudau.createData();
-  runApp(const MyApp());
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  final Future<FirebaseApp> _initialization = Firebase.initializeApp();
 
+  
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    
+    return FutureBuilder(
+      future: _initialization,
+      builder: (context, snapshot) {
+        if(snapshot.hasError){
+          print('Something Went Wrong');
+        }
+        if(snapshot.connectionState == ConnectionState.waiting){
+          return Center(child: CircularProgressIndicator(),);
+        }
+        return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: FirebaseAuth.instance.currentUser == null ? 'trangchu': 'home',
       routes: {
@@ -63,6 +74,8 @@ class MyApp extends StatelessWidget {
 
       }
       
+    );
+      },
     );
   }
 }

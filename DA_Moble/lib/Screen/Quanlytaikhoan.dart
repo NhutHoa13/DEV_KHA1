@@ -62,7 +62,7 @@ class _QuanlitaikhoanScreenState extends State<QuanlitaikhoanScreen> {
                       margin: EdgeInsets.fromLTRB(0, 0, r / 2 / 2, 0),
                       child: InkWell(
                         onTap: () {
-                          Navigator.pop(context);
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => TrangchuSrceen(),));
                         },
                         child: Icon(
                           Icons.arrow_back,
